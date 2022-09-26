@@ -1,0 +1,343 @@
+@media (min-width: 1200px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        padding: 10px;
+        background-color: var(--dark);
+        color: white;
+        background-color: orangered;
+    }
+
+    .contenedorPadre {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+    }
+
+
+    .ContenedorHijoLogo {
+        top: 3px;
+
+    }
+
+    .Menu-ContenedorHijo {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        padding-left: 30px;
+        display: inline;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .Menu-ContenedorHijo a:hover {
+        color: black;
+    }
+
+    .intro {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+    }
+
+    .ImagenHome {
+        display: flex;
+        margin-left: 80px;
+    }
+
+    .ImagenBio {
+        display: flex;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+
+    .MiniBiografia {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 19px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        padding: 10px;
+        background-color: var(--dark);
+        color: white;
+        background-color: orangered;
+    }
+
+
+    .gridmusica {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .ImagenBio {
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+    .contenedorPadre {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+    }
+
+    .ContenedorHijoLogo {
+        top: -3px;
+    }
+
+    .Menu-ContenedorHijo {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        padding-left: 5px;
+        display: inline;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .Menu-ContenedorHijo a:hover {
+        color: black;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ImagenHome {
+        display: flex;
+        width: 400px;
+        height: 400px;
+        margin-right: 300px;
+        margin-bottom: 50px;
+    }
+
+
+    .MiniBiografia {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 13px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .gridvideo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 40px;
+        column-gap: 40px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        padding: 5px;
+        background-color: var(--dark);
+        color: white;
+        background-color: orangered;
+    }
+
+    .gridmusica {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .logo{
+        margin-top: 15px;
+        height: 70px;
+        width: 80px;
+    }
+
+    .ImagenBio {
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+    .contenedorPadre {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+    }
+
+    .ContenedorHijoLogo {
+        top: -3px;
+    }
+
+    .Menu-ContenedorHijo {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        padding-left: 2px;
+        display: inline;
+        font-size: 12px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .Menu-ContenedorHijo a:hover {
+        color: black;
+    }
+
+    /* Seccion Intro */
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ImagenHome {
+        display: none;
+    }
+
+    .MiniBiografia {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 12px;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .gridvideo {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 40px;
+        column-gap: 40px;
+        margin-bottom: 40px;
+    }
+
+
+}
+
+@media screen and (max-width: 860px) {
+    .card {
+        display: block;
+        float: none;
+        width: 100%;
+        margin-bottom: 10px
+    }
+
+    .card+.card {
+        margin-left: 0
+    }
+
+    .card-cont .even-date,
+    .card-cont .even-info {
+        font-size: 75%
+    }
+}
+
+@media (max-width:600px) {
+    .nav>.nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+
+    .nav>.nav-btn>label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+    }
+
+    .nav>.nav-btn>label:hover,
+    .nav #nav-check:checked~.nav-btn>label {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .nav>.nav-btn>label>span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #eee;
+    }
+
+    .nav>.nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #333;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+    }
+
+    .nav>.nav-links>a {
+        display: block;
+        width: 100%;
+    }
+
+    .nav>#nav-check:not(:checked)~.nav-links {
+        height: 0px;
+    }
+
+    .nav>#nav-check:checked~.nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+    }
+}
